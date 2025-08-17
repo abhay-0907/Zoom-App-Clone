@@ -24,8 +24,8 @@ A **Zoom-like video conferencing app** built with the **MERN Stack**. Supports *
 ---
 
 ## ⚙️ Setup
-git clone https://github.com/abhay-0907/zoom-clone.git
-cd zoom-clone
+- git clone https://github.com/abhay-0907/zoom-clone.git
+- cd zoom-clone
 
 # Install client
 cd client && npm install
@@ -34,9 +34,9 @@ cd client && npm install
 cd ../server && npm install
 
 # Create .env in server/:
-MONGO_URI=your_mongo_connection_string
-JWT_SECRET=your_jwt_secret
+- MONGO_URI=your_mongo_connection_string
+- JWT_SECRET=your_jwt_secret
 
 # Run:
-cd server && npm run dev   # backend
-cd client && npm start     # frontend
+- cd server && npm run dev   # backend
+- cd client && npm start     # frontend
